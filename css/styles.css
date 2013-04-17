@@ -1,0 +1,31 @@
+@font-face {
+    font-family: GermaniaOne;
+    src: url('../fonts/GermaniaOne-Regular.ttf');
+    font-weight:400;
+}
+
+body {
+  background: #DDEDFF;
+  font-family: GermaniaOne, sans-serif;
+}
+
+h1, h2 {
+  display: block;
+  width: 1080px;
+  padding-bottom: 0;
+  margin: 0;
+  text-align: center;
+  color: #1D0140;
+  text-shadow: 4px 4px 4px #8189BF;
+  filter: dropshadow(color=#8189BF, offx=4, offy=4);
+}
+
+hr {
+  width: 80%;
+  border: 0;
+  height: 3px;
+  background-image: -webkit-linear-gradient(left, rgba(29,1,64,0), rgba(29,1,64,.75), rgba(29,1,64,0));
+  background-image:    -moz-linear-gradient(left, rgba(29,1,64,0), rgba(29,1,64,.75), rgba(29,1,64,0));
+  background-image:     -ms-linear-gradient(left, rgba(29,1,64,0), rgba(29,1,64,.75), rgba(29,1,64,0));
+  background-image:      -o-linear-gradient(left, rgba(29,1,64,0), rgba(29,1,64,.75), rgba(29,1,64,0));
+}
