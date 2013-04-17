@@ -1,7 +1,13 @@
 @font-face {
-    font-family: GermaniaOne;
-    src: url('../fonts/GermaniaOne-Regular.ttf');
-    font-weight:400;
+  font-family: GermaniaOne;
+  src: url('../fonts/GermaniaOne-Regular.ttf');
+  font-weight:400;
+}
+
+@font-face {
+ font-family: RobotoCondensed;
+ src: url('../fonts/RobotoCondensed-Regular.ttf');
+ font-weight: 400;
 }
 
 body {
@@ -24,13 +30,15 @@ h1, h2 {
 
 .mission {
   width: 100%;
-  background: orange;
+  background: #00D4E5;
+  padding: .5em 3em;
+  color: #004033;
+  font-family: RobotoCondensed, sans-serif;
+  font-size: 3em;
 }
 
 p {
-  color: #1D0140;
-  font-family: sans-serif;
-  font-size: 3em;
+
 }
 
 hr {
